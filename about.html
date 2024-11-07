@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project - About Page - Bakery Shop - Sara Abdel Baset</title>
+
+    <!--Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!--AOS Link (Animate On Scroll)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--CDN for slick slider (css)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--FANCY BOX STYLE CSS LINK-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <!--Custom CSS(last thing before closing your head)-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="popup-is-active">
+    <main>
+      <!--pop up in the about page-->
+      <section class="pop-up" id="popup">
+        <div class="popup-content">
+          <div class="container">
+            <div class="card-flex">
+              <div class="card-left">
+                <form method="post">
+                  <!--start of form-->
+                  <h3>sweet treats daily</h3>
+                  <h2>Sign-up and get 15% off your first order.</h2>
+
+                  <label> Email </label>
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Please enter your email here"
+                  />
+                  <input
+                    type="submit"
+                    name="buttonelement"
+                    value="Submit Now"
+                  />
+                </form>
+                <!--end of form-->
+                <button id="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="card-right"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end of pop up box-->
+      <!--header start-->
+      <section class="header" id="header">
+        <div class="container">
+          <div class="header-flex">
+            <a href="index.html" class="logo" src="index.html">TheBakeryShop</a>
+
+            <div class="burger-icon" id="burger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu-holder">
+              <button id="close-nav">
+                <i class="fa-regular fa-rectangle-xmark"></i>
+              </button>
+              <ul class="header-menu">
+                <li>
+                  <a href="index.html">home</a>
+                </li>
+                <li>
+                  <a href="about.html">about</a>
+                </li>
+                <li>
+                  <a href="">service</a>
+                </li>
+                <li>
+                  <a href="">events</a>
+                </li>
+                <li>
+                  <a href="">pricing</a>
+                </li>
+                <li>
+                  <a href="">blog</a>
+                </li>
+                <li>
+                  <a href="">contact</a>
+                </li>
+                <li>
+                  <a href="">elements</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--header end-->
+      <!--start of about section-->
+      <section class="about-section">
+        <div class="container">
+          <div class="header-of-about">
+            <h3>a slice of happiness</h3>
+            <h2>all about the bakery shop</h2>
+          </div>
+          <!--end of header-of-about-->
+          <div class="parent-flex">
+            <div
+              class="left-side"
+              data-aos="zoom-out-down"
+              data-aos-easing="ease-in"
+              data-aos-duration="2000"
+              data-aos-delay="400"
+            ></div>
+            <div
+              class="right-side"
+              data-aos="zoom-out-down"
+              data-aos-easing="ease-in"
+              data-aos-duration="2000"
+              data-aos-delay="400"
+            >
+              <h2>Get to know us..</h2>
+
+              <p>
+                The Bakery shop's mission is to produce quality baked goods that
+                leave a lasting and memorable impression on each and every
+                person that enjoys them. We strive to grow our business with the
+                same honesty, integrity and core family values that we use to
+                craft our menu along with treating every customer that walks
+                through our doors like family.
+              </p>
+              <a href="" class="btn btn-2">learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end of section about-->
+      <!--section gallery fancybox-->
+      <section class="gallery1">
+        <div class="container">
+          <h2>
+            gallery
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </h2>
+          <div
+            class="preview-image1"
+            data-aos="zoom-out-down"
+            data-aos-easing="ease-in"
+            data-aos-delay="400"
+          >
+            <!--The preview image is first-->
+            <a
+              href="https://lacasadolce.ca/cdn/shop/products/3F0A0087_230a3e6e-b263-48ee-b4dd-3ee39336e530.jpg?v=1665065061&width=1500"
+              data-fancybox="gallery1"
+              ><!--when you click its an another image other than what appears on the outside-->
+              <img src="outdoor.jpg" alt="" />
+              <!--what appears on the outside-->
+            </a>
+          </div>
+          <div class="hidden-images1">
+            <!--the gallery inside 4 images <a> data-thumb to make them hidden-->
+            <a
+              href="https://lacasadolce.ca/cdn/shop/files/cheesecakeslices_0010_IMG_7901.jpg?v=1702746631&width=1500"
+              data-fancybox="gallery1"
+              data-thumb="https://lacasadolce.ca/cdn/shop/files/cheesecakeslices_0010_IMG_7901.jpg?v=1702746631&width=1500"
+            ></a>
+            <a
+              href="https://lacasadolce.ca/cdn/shop/products/3F0A0087_230a3e6e-b263-48ee-b4dd-3ee39336e530.jpg?v=1665065061&width=1500"
+              data-fancybox="gallery1"
+              data-thumb="https://lacasadolce.ca/cdn/shop/products/3F0A0087_230a3e6e-b263-48ee-b4dd-3ee39336e530.jpg?v=1665065061&width=1500"
+            ></a>
+            <a
+              href="https://lacasadolce.ca/cdn/shop/products/3F0A8282.jpg?v=1665064941&width=1500"
+              data-fancybox="gallery1"
+              data-thumb="https://lacasadolce.ca/cdn/shop/products/3F0A8282.jpg?v=1665064941&width=1500"
+            ></a>
+            <a
+              href="https://lacasadolce.ca/cdn/shop/collections/3F0A121171.jpg?v=1648746672&width=1100"
+              data-fancybox="gallery1"
+              data-thumb="https://lacasadolce.ca/cdn/shop/collections/3F0A121171.jpg?v=1648746672&width=1100"
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!--START OF SECTION FORM-->
+      <section class="insc">
+        <div class="container">
+          <form method="post">
+            <h2>join our newsletter!</h2>
+            <p>
+              Subscribe to our newsletter and be the first to hear about our new
+              arrivals, special promotions and online exclusives.
+            </p>
+            <label> First Name </label>
+            <span><i class="fa-solid fa-user"></i></span>
+            <input type="text" name="name" placeholder="first name" />
+
+            <label>Last Name</label>
+            <span><i class="fa-regular fa-user"></i></span>
+            <input type="text" name="lastname" placeholder="last name" />
+
+            <label> Email </label>
+            <span><i class="fa-regular fa-envelope"></i></span>
+            <input type="text" name="email" placeholder="email" />
+
+            <label> Phone Number </label>
+            <span><i class="fa-solid fa-phone"></i></span>
+            <input
+              type="number"
+              name="phonenumber"
+              placeholder="phone number"
+            />
+            <input type="submit" name="buttonelement" value="Submit Now" />
+          </form>
+        </div>
+      </section>
+      <!--end of form-->
+    </main>
+    <!--FOOTER-->
+    <footer class="coffee-footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div class="coffee-footer-left">
+            <h6>Copyright @2024 All rights reserved</h6>
+          </div>
+          <div class="coffee-footer-right">
+            <ul class="contact-logos-flex">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--link jquery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!---AOS JS link-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Fancy Box link-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind();
+    </script>
+    <script>
+      //for the pop-up form when you click the about page
+      let popup = document.getElementById("popup");
+      let body = document.getElementById("body");
+      document
+        .getElementById("close-btn")
+        .addEventListener("click", function () {
+          document.body.classList.remove("popup-is-active");
+        });
+      //when you click in the background the pop up closes also.
+      popup.addEventListener("click", function (event) {
+        if (event.target === document.getElementById("popup")) {
+          document.body.classList.remove("popup-is-active");
+        }
+      });
+      //Initalizing Animate on Scroll
+      AOS.init({
+        once: true,
+      });
+      //Header/Nav responsive
+      let hamb = document.getElementById("burger");
+      let close_nav = document.getElementById("close-nav");
+      hamb.addEventListener("click", function () {
+        document.body.classList.add("nav-is-open");
+      });
+      close_nav.addEventListener("click", function () {
+        document.body.classList.remove("nav-is-open");
+      });
+      // fixed header effect for when you scroll down
+      window.onscroll = function () {
+        const header = document.getElementById("header");
+        if (window.pageYOffset > 100) {
+          header.style.boxShadow =
+            "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px";
+        } else {
+          header.style.boxShadow = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
